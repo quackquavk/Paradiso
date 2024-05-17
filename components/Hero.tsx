@@ -92,8 +92,10 @@ const Hero: React.FC = () => {
             <div className="slider-bg">
               <img
                 src="/images/hero-slider-1.jpg"
-                alt=""
-                className="w-full h-auto object-cover"
+                width="1880"
+                height="950"
+                alt="fero"
+                className="img-cover"
               />
             </div>
             <p className="label-2 section-subtitle slider-reveal">
@@ -162,8 +164,10 @@ const Hero: React.FC = () => {
             <div className="slider-bg">
               <img
                 src="/images/hero-slider-3.jpg"
-                alt=""
-                className="w-full h-auto object-cover"
+                width="1880"
+                height="950"
+                alt="fero"
+                className="img-cover"
               />
             </div>
 
