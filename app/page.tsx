@@ -10,6 +10,7 @@ import Topbar from "@/components/Topbar";
 import Events from "@/components/Events";
 import Features from "@/components/Features";
 import Menus from "@/components/Menus";
+import BackToTop from "@/components/BackToTop";
 
 const page = () => {
   return (
@@ -25,6 +26,7 @@ const page = () => {
       <Features />
       <Events />
       <Menus />
+      <BackToTop /> 
     </>
   );
 };

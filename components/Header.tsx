@@ -85,7 +85,7 @@ const Header = () => {
 
           <a href="#" className="logo">
             <Image
-              src="/images/logo.svg"
+              src="https://paradisosportsbar.com/wp-content/uploads/2023/02/cropped-paradiso-logo-150x150-1.png"
               width="160"
               height="50"
               alt="Paradiso - Home"

@@ -26,7 +26,7 @@ const Menus = () => {
     }
   }, []);
   return (
-    <main className="bodyy" id="menus">
+    <main className="bodyy bg-black w-full" id="menus">
       <div className="book" ref={bookRef}>
         <div className="page">
           <div className="front cover">
@@ -143,11 +143,7 @@ const Menus = () => {
           <div className="back cover"></div>
         </div>
       </div>
-      <Link href='#home'>
-      <div className="h-[100px] w-[100px] rounded-full bg-[var(--quick-silver)] relative top-[80vh] right-[10vw]  items-center justify-center cursor-pointer hidden md:flex shadow-md">
-        <FaArrowUp style={{  height: '30px', width: '50px' }}  />
-      </div>
-      </Link>
+      
     </main>
   );
 };

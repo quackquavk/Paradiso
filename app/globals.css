@@ -2486,5 +2486,7 @@ input[type="number"] {
   font-weight: 800;
   overflow: hidden;
   color: hsl(180 68% 5%);
-  background-color: var(--gold-crayola);
+  
 }
+
+

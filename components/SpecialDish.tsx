@@ -37,9 +37,9 @@ const SpecialDish = () => {
           </p>
 
           <div className="wrapper">
-            <del className="del body-3">$40.00</del>
+            <del className="del body-3">NPR.40.00</del>
 
-            <span className="span body-1">$20.00</span>
+            <span className="span body-1">NPR.20.00</span>
           </div>
 
           <a href="#" className="btn btn-primary">

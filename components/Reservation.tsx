@@ -182,7 +182,7 @@ const Reservation = () => {
               href="tel:+977061-451675"
               className="body-1 contact-number hover-underline"
             >
-              +88-123-123456
+              061-451675
             </a>
 
             <div className="separator"></div>
@@ -190,8 +190,8 @@ const Reservation = () => {
             <p className="contact-label">Location</p>
 
             <address className="body-4">
-              Restaurant St, Delicious City, <br />
-              London 9578, UK
+              Lakeside Ward No.6, <br />
+              Baidam, Pokhara
             </address>
 
             <p className="contact-label">Lunch Time</p>
