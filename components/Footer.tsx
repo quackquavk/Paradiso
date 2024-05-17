@@ -97,7 +97,7 @@ const Footer = () => {
             </li>
 
             <li>
-              <a href="#" className="label-2 footer-link hover-underline">
+              <a href="#menus" className="label-2 footer-link hover-underline">
                 Menus
               </a>
             </li>
@@ -124,7 +124,7 @@ const Footer = () => {
           <ul className="footer-list">
             <li>
               <a
-                href="https://www.facebook.com/paradisopokhara/"
+                href="https://www.facebook.com/paradisopokhara/" target="blank"
                 className="label-2 footer-link hover-underline"
               >
                 Facebook
@@ -133,7 +133,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://www.instagram.com/paradisopokhara/"
+                href="https://www.instagram.com/paradisopokhara/" target="blank"
                 className="label-2 footer-link hover-underline"
               >
                 Instagram
@@ -142,7 +142,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://x.com/paradisopokhara"
+                href="https://x.com/paradisopokhara" target="blank"
                 className="label-2 footer-link hover-underline"
               >
                 Twitter
@@ -151,7 +151,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://www.youtube.com/@paradisosportbar3308"
+                href="https://www.youtube.com/@paradisosportbar3308" target="blank"
                 className="label-2 footer-link hover-underline"
               >
                 Youtube
@@ -160,7 +160,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="#https://maps.app.goo.gl/VFRLCBZ3qXQfmTQK7"
+                href="#https://maps.app.goo.gl/VFRLCBZ3qXQfmTQK7" target="blank"
                 className="label-2 footer-link hover-underline"
               >
                 Google Map

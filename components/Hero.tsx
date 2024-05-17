@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import { BiChevronLeft , BiChevronRight } from "react-icons/bi";
 
@@ -89,7 +90,7 @@ const Hero: React.FC = () => {
             }}
           >
             <div className="slider-bg">
-              <img
+              <Image
                 src="/images/hero-slider-1.jpg"
                 alt=""
                 className="w-full h-auto object-cover"
@@ -120,12 +121,12 @@ const Hero: React.FC = () => {
             }}
           >
             <div className="slider-bg">
-              <img
+              <Image
                 src="/images/hero-slider-2.jpg"
                 width="1880"
                 height="950"
                 alt=""
-                className="img-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
 
@@ -159,7 +160,7 @@ const Hero: React.FC = () => {
             }}
           >
             <div className="slider-bg">
-              <img
+              <Image
                 src="/images/hero-slider-3.jpg"
                 alt=""
                 className="w-full h-auto object-cover"
@@ -208,7 +209,7 @@ const Hero: React.FC = () => {
         </button>
 
         <a href="#table" className="hero-btn has-after">
-          <img
+          <Image
             src="/images/hero-icon.png"
             alt="booking icon"
             className="w-12 h-12"
