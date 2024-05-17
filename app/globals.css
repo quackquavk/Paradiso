@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Forum';
+  src: url('/fonts/Forum-Regular.ttf') format('truetype');
+  font-weight: 400; /* This is the regular weight */
+}
 
 .grid {
   grid-template-columns: 1fr 3fr;
