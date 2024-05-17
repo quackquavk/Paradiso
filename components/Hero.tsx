@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
             }}
           >
             <div className="slider-bg">
-              <Image
+              <img
                 src="/images/hero-slider-1.jpg"
                 alt=""
                 className="w-full h-auto object-cover"
@@ -121,12 +121,12 @@ const Hero: React.FC = () => {
             }}
           >
             <div className="slider-bg">
-              <Image
+              <img
                 src="/images/hero-slider-2.jpg"
                 width="1880"
                 height="950"
                 alt=""
-                className="w-full h-auto object-cover"
+                className="img-cover"
               />
             </div>
 
@@ -160,7 +160,7 @@ const Hero: React.FC = () => {
             }}
           >
             <div className="slider-bg">
-              <Image
+              <img
                 src="/images/hero-slider-3.jpg"
                 alt=""
                 className="w-full h-auto object-cover"
@@ -209,7 +209,7 @@ const Hero: React.FC = () => {
         </button>
 
         <a href="#table" className="hero-btn has-after">
-          <Image
+          <img
             src="/images/hero-icon.png"
             alt="booking icon"
             className="w-12 h-12"
