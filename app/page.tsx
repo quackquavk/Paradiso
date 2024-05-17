@@ -11,6 +11,7 @@ import Events from "@/components/Events";
 import Features from "@/components/Features";
 import Menus from "@/components/Menus";
 import BackToTop from "@/components/BackToTop";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -27,6 +28,7 @@ const page = () => {
       <Events />
       <Menus />
       <BackToTop /> 
+      <Footer />
     </>
   );
 };

@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { Forum } from "next/font/google";
 import "./globals.css";
 
-const forum = Forum({ weight: "400", subsets: ["latin"] }); // Use "weight" instead of "weight :"
+const forum = Forum({ weight: "400", subsets: ["latin"] }); 
 
 export const metadata: Metadata = {
   title: "Paradiso Pokhara - Sports bar and grill",
   description: "Great food and live music till late night",
+  icons: {
+    icon: "./assets/images/logo.png",
+  },
 };
 
 export default function RootLayout({

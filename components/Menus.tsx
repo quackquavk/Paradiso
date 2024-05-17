@@ -26,8 +26,9 @@ const Menus = () => {
     }
   }, []);
   return (
-    <main className="bodyy bg-black w-full" id="menus">
-      <div className="book" ref={bookRef}>
+    <main className="bodyy bg-black w-full flex-col items-center" id="menus">
+      <h1 className="section-subtitle1">Full Menu</h1>
+      <div className="book mt-[-100px]" ref={bookRef}>
         <div className="page">
           <div className="front cover">
             <h1>Menu</h1>

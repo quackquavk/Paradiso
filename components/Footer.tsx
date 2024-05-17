@@ -1,11 +1,29 @@
+'use client'
+import { handleSubmitEmail } from "@/lib/actions/email.actions";
+import { emailParams } from "@/types";
 import Image from "next/image";
-import React from "react";
+import React, { FormEvent, useState } from "react";
+import { CiMail } from "react-icons/ci";
 
 const Footer = () => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const formData = new FormData(event.target as HTMLFormElement);
+    const formDataObject : emailParams = {
+      email : formData.get('email') as string
+    }
+   try {
+    handleSubmitEmail(formDataObject);
+    (event.target as HTMLFormElement).reset();
+    alert("Subscribed successfully");
+   } catch (error) {
+    console.log(error)
+   }
+  }
   return (
     <footer
       className="footer section has-bg-image text-center"
-      style={{ backgroundImage: "url('./assets/images/footer-bg.jpg')" }}
+      style={{ backgroundImage: "url('/images/footer-bg.jpg')" }}
     >
       <div className="container">
         <div className="footer-top grid-list">
@@ -16,7 +34,7 @@ const Footer = () => {
                 width="160"
                 height="50"
                 loading="lazy"
-                alt="grilli home"
+                alt="paradiso home"
               />
             </a>
 
@@ -24,7 +42,10 @@ const Footer = () => {
               Lakeside Ward No.6, Baidam, Pokhara
             </address>
 
-            <a href="mailto:paradisosportsbar@gmail.com" className="body-4 contact-link">
+            <a
+              href="mailto:paradisosportsbar@gmail.com"
+              className="body-4 contact-link"
+            >
               paradisosportsbar@gmail.com
             </a>
 
@@ -46,13 +67,12 @@ const Footer = () => {
               Subscribe us & Get <span className="span">25% Off.</span>
             </p>
 
-            <form action="" className="input-wrapper">
+            <form action="" className="input-wrapper" onSubmit={handleSubmit}>
               <div className="icon-wrapper">
-                {/* <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>? */}
-
+                <CiMail className="ion-icon" />
                 <input
                   type="email"
-                  name="email_address"
+                  name="email"
                   placeholder="Your email"
                   autoComplete="off"
                   className="input-field"
@@ -103,31 +123,46 @@ const Footer = () => {
 
           <ul className="footer-list">
             <li>
-              <a href="#" className="label-2 footer-link hover-underline">
+              <a
+                href="https://www.facebook.com/paradisopokhara/"
+                className="label-2 footer-link hover-underline"
+              >
                 Facebook
               </a>
             </li>
 
             <li>
-              <a href="#" className="label-2 footer-link hover-underline">
+              <a
+                href="https://www.instagram.com/paradisopokhara/"
+                className="label-2 footer-link hover-underline"
+              >
                 Instagram
               </a>
             </li>
 
             <li>
-              <a href="#" className="label-2 footer-link hover-underline">
+              <a
+                href="https://x.com/paradisopokhara"
+                className="label-2 footer-link hover-underline"
+              >
                 Twitter
               </a>
             </li>
 
             <li>
-              <a href="#" className="label-2 footer-link hover-underline">
+              <a
+                href="https://www.youtube.com/@paradisosportbar3308"
+                className="label-2 footer-link hover-underline"
+              >
                 Youtube
               </a>
             </li>
 
             <li>
-              <a href="#" className="label-2 footer-link hover-underline">
+              <a
+                href="#https://maps.app.goo.gl/VFRLCBZ3qXQfmTQK7"
+                className="label-2 footer-link hover-underline"
+              >
                 Google Map
               </a>
             </li>

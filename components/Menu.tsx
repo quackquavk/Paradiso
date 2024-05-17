@@ -151,7 +151,7 @@ const Menu = () => {
 
                   <span className="badge label-1">New</span>
 
-                  <span className="span title-2">$39.00</span>
+                  <span className="span title-2">NRs. 890</span>
                 </div>
 
                 <p className="card-text label-1">
@@ -187,7 +187,7 @@ const Menu = () => {
                     </a>
                   </h3>
 
-                  <span className="span title-2">$25.00</span>
+                  <span className="span title-2">NRs. 2000</span>
                 </div>
 
                 <p className="card-text label-1">
@@ -224,7 +224,7 @@ const Menu = () => {
                     </a>
                   </h3>
 
-                  <span className="span title-2">$49.00</span>
+                  <span className="span title-2">NRs. 490</span>
                 </div>
 
                 <p className="card-text label-1">
