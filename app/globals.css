@@ -1711,7 +1711,7 @@ textarea.input-field {
   }
 
   .topbar-item .ion-icon {
-    --ionicon-stroke-width: 60px;
+   stroke-width: 60px;
   }
 
   .topbar-item .span {

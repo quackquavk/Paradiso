@@ -64,7 +64,7 @@ const Footer = () => {
             <p className="title-1">Get News & Offers</p>
 
             <p className="label-1">
-              Subscribe us & Get <span className="span">25% Off.</span>
+              Subscribe us
             </p>
 
             <form action="" className="input-wrapper" onSubmit={handleSubmit}>

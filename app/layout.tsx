@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Paradiso Pokhara - Sports bar and grill",
   description: "Great food and live music till late night",
   icons: {
-    icon: "./assets/images/logo.png",
+    icon: "/images/logo.png",
   },
 };
 

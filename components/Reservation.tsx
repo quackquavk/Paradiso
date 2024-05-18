@@ -125,7 +125,11 @@ const Reservation = () => {
                   <option value="1-person">1 Person</option>
                   <option value="2-person">2 Persons</option>
                   <option value="3-person">3 Persons</option>
+
                   <option value="4-person">4 Persons</option>
+                  <option value="4-person">5 Persons</option>
+                  <option value="4-person">6 Persons</option>
+                  <option value="4-person">7 Persons</option>
                 </select>
                 <BiChevronDown className="ion-icon" />
               </div>

@@ -1,5 +1,8 @@
 import React from 'react'
-
+import { IoCallOutline } from "react-icons/io5";
+import { CiMail } from "react-icons/ci";
+import { IoMdTime } from "react-icons/io";
+import { CiLocationOn } from "react-icons/ci";
 const Topbar = () => {
   return (
     <div className="topbar">
@@ -7,7 +10,7 @@ const Topbar = () => {
 
       <address className="topbar-item">
         <div className="icon">
-          {/* <io name="location-outline" aria-hidden="true"></io/n-icon> */}
+          <CiLocationOn className='ion-icon' name="location-outline" aria-hidden="true"/>
         </div>
 
         <span className="span">
@@ -19,7 +22,7 @@ const Topbar = () => {
 
       <div className="topbar-item item-2">
         <div className="icon">
-          {/* <ion-icon name="time-outline" aria-hidden="true"></ion-icon> */}
+        <IoMdTime/>
         </div>
 
         <span className="span">Daily : 8.00 am to 12.00 pm</span>
@@ -27,7 +30,7 @@ const Topbar = () => {
 
       <a href="tel:+977061-451675" className="topbar-item link">
         <div className="icon">
-          {/* <ion-icon name="call-outline" aria-hidden="true"></ion-icon> */}
+        <IoCallOutline />
         </div>
 
         <span className="span">061-451675</span>
@@ -37,7 +40,7 @@ const Topbar = () => {
 
       <a href="mailto:booking@restaurant.com" className="topbar-item link">
         <div className="icon">
-          {/* <ion-icon name="mail-outline" aria-hidden="true"></ion-icon> */}
+          <CiMail />
         </div>
 
         <span className="span">booking@restaurant.com</span>
