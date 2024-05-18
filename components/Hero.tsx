@@ -145,7 +145,7 @@ const Hero: React.FC = () => {
               Come with family & feel the joy of mouthwatering food
             </p>
 
-            <a href="#" className="btn btn-primary slider-reveal">
+            <a href="#menus" className="btn btn-primary slider-reveal">
               <span className="text text-1">View Our Menu</span>
 
               <span className="text text-2" aria-hidden="true">

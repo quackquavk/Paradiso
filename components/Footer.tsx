@@ -160,7 +160,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="#https://maps.app.goo.gl/VFRLCBZ3qXQfmTQK7" target="blank"
+                href="https://maps.app.goo.gl/VFRLCBZ3qXQfmTQK7" target="blank"
                 className="label-2 footer-link hover-underline"
               >
                 Google Map

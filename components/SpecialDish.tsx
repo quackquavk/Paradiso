@@ -42,7 +42,7 @@ const SpecialDish = () => {
             <span className="span body-1">NPR.20.00</span>
           </div>
 
-          <a href="#" className="btn btn-primary">
+          <a href="#menus" className="btn btn-primary">
             <span className="text text-1">View All Menu</span>
 
             <span className="text text-2" aria-hidden="true">
