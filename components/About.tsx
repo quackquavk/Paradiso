@@ -16,7 +16,7 @@ const About = () => {
             </p>
 
             <h2 className="headline-1 section-title">
-              Every Fla vor Tells a Story
+              Every Flavor Tells a Story
             </h2>
 
             <p className="section-text">
