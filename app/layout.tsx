@@ -6,7 +6,7 @@ const forum = Forum({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Paradiso Pokhara - Sports bar and grill",
-  description: "Enjoy great food and live music until late at night in a family-friendly environment. Our restaurant offers a clean space, friendly staff, and exceptional hospitality. Located just behind the premises, you'll have a stunning view of Lake Fewa. Our diverse menu features Indian, Italian, Chinese, and Mexican cuisines, along with a wide range of drinks to complement your meal. It's the perfect place for gatherings and family dining. ",
+  description: "Experience an unforgettable dining adventure with great food and live music that keeps the night alive in a vibrant, family-friendly environment. Our restaurant not only offers an immaculate setting but also boasts an exceptionally friendly staff and unparalleled hospitality. Nestled just behind our premises, enjoy the breathtaking view of Lake Fewa. Our extensive menu showcases the finest Indian, Italian, Chinese, and Mexican cuisines, ensuring a delightful culinary journey. Complement your meal with our wide array of drinks. It's the ultimate destination for gatherings and family dining, promising an extraordinary experience that will leave you coming back for more. ",
   icons: {
     icon: "/favicon.ico",
   },
