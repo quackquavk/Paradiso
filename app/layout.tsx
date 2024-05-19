@@ -24,7 +24,6 @@ export default function RootLayout({
         <link
           rel="icon"
           type="image/png"
-          sizes="16x16"
           href="/images/logo.png"
         />
       </Head>
