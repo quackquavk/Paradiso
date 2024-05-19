@@ -22,8 +22,8 @@ const page = () => {
       <Services />
       <About />
       <SpecialDish />
-      <Reservation />
       <Menu />
+      <Reservation />
       <Features />
       <Events />
       <Menus />

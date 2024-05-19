@@ -6,7 +6,7 @@ const forum = Forum({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Paradiso Pokhara - Sports bar and grill",
-  description: "Great food and live music till late night",
+  description: "Enjoy great food and live music until late at night in a family-friendly environment. Our restaurant offers a clean space, friendly staff, and exceptional hospitality. Located just behind the premises, you'll have a stunning view of Lake Fewa. Our diverse menu features Indian, Italian, Chinese, and Mexican cuisines, along with a wide range of drinks to complement your meal. It's the perfect place for gatherings and family dining. ",
   icons: {
     icon: "/favicon.ico",
   },
