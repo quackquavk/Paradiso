@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
+      <meta property="og:url" content="https://paradiso-eta.vercel.app/" />
         <meta
           property="og:title"
           content="Paradiso Pokhara - Sports bar and grill"
