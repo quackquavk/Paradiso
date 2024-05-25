@@ -1,20 +1,22 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
 let cached = (global as any).mongoose || { conn: null, promise: null };
 
-export const connectToDatabase = async (bufferCommands? : boolean) => {
+export const connectToDatabase = async (dbName?: String) => {
   if (cached.conn) return cached.conn;
 
-  if(!MONGODB_URI) throw new Error('MONGODB_URI is missing');
+  if (!MONGODB_URI) throw new Error("MONGODB_URI is missing");
 
-  cached.promise = cached.promise || mongoose.connect(MONGODB_URI, {
-    dbName: 'paradiso',
-    bufferCommands: bufferCommands || false,
-  })
+  cached.promise =
+    cached.promise ||
+    mongoose.connect(MONGODB_URI, {
+      dbName: "paradiso",
+      bufferCommands: false,
+    });
 
   cached.conn = await cached.promise;
-console.log('connected to database')
+  console.log("connected to database");
   return cached.conn;
-}
+};

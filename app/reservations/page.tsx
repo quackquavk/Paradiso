@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { getAllOrders } from "@/lib/actions/order.actions";
 import { orderParams } from "@/types";
 import { Time } from "react-ionicons";
+import { connectToDatabase } from "@/lib/database";
 
 interface MyEvent {
   type: string;
@@ -16,6 +17,7 @@ const FilteredTable = () => {
 
   useEffect(() => {
     const fetchOrders = async () => {
+      connectToDatabase('evently')
       try {
         const ordersData = await getAllOrders();
         setOrders(ordersData);
