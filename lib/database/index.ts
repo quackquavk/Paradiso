@@ -12,7 +12,7 @@ export const connectToDatabase = async (dbName?: string) => {
   cached.promise =
     cached.promise ||
     mongoose.connect(MONGODB_URI, {
-      dbName: dbName,
+      dbName: dbName || 'paradiso',
       bufferCommands: false,
     });
 
